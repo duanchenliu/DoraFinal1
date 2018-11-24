@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DoraFinal1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="MentalHealthAssessment">Mental Health Assessment: </string>
+    <!--Anxiety Section:-->
+    <string name="Question1">Question one: I feel restless, agitated, frantic, or tense. </string>
+    <string name="Question2">Question two: I was very anxious, worried or scared about a lot of things in my life. </string>
+    <string name="Question3">Question three: I had trouble sleeping. I could not fall or stay asleep, or did not feel well-rested when I woke up. </string>
+    <!--Motivation Section: -->
+    <string name="Question4">Question four: How passionate are you towards your study or job? </string>
+    <string name="Question5">Question five: I found it difficult to work up the initiative to do things. </string>
+    <string name="Question6">Question six: I always choose to do something because of the thing itself, rather than the extrinsic benefits associated with it. </string>
+    <!--Emotional Stability Section-->
+    <string name="Question7">Question seven: I tended to over-react to situation. </string>
+    <string name="Question8">Question eight: I was intolerant of anything that kept me from getting on with what i was doing. </string>
+    <string name="Question9">Question nine: It is very easy for me to get emotional (sad or angry). </string>
+
+    <string name="AnxietyHigh">You have High level of anxiety. Anxiety is part of the bodys natural reaction to stress, so it can be helpful at times, making you more alert and ready for action. But too much anxiety can harm our health. Anxiety can be managed by taking time to relax with meditation and other techniques. Need help? To reach the Psychological Emergency Clinician, please call 6175523310. </string>
+    <string name="AnxietyMenium">You have MEDIUM level of anxiety. Although anxiety can help remind you of important tasks you need to complete, too much anxiety can hinder your ability to perform and may even lead to depression. Try to take sometime to wind down and check out the Zen Room section for medication music. </string>
+    <string name="AnxietyLow">You are doing great! You have LOW level of anxiety. Take some rest, go out for a walk, and keep up with the good work!</string>
+
+    <string name="MotivationHigh">Good job! You are very motivated! More impotantly, you are intrinsically motivated. People who are intrinsically motivated is more likely to find joy in their daily lives and more likely to keep up with the things they do.</string>
+    <string name="MotivationMedium">You have a medium level of motivation. You are motivated by the tasks you like and by the reward or punishment from the task. However, when things get tough, you need to find a way to persist. You can find strength by trying to discover what intrinsically motivates you. </string>
+    <string name="MotivationLow">You have a low level of motivation. We live in the age of opportunities and with more opportunities, we need to make more choices. It is hard sometimes to pause for a minute and think about what we truly want. Want to learn more about what truly motivates you? Take a minute to write down 5 things you are good at, think about how to tie the 5 things into your schoolwork, your job. </string>
+
+    <string name="EmotionalStabilityHigh">Wonderful! You are a very relaxed and calm person.</string>
+    <string name="EmotionalStabilityMedium">You have MEDIUM level of emotional stability. Occasionally, you can be high on neuroticism, but overall, you can keep your cool. Just remember, whenever you experience such feelings as anxiety, worry, fear, anger, or frustration, take a deep breath. </string>
+    <string name="EmotionalStabilityLow">You scored LOW on emotional stability and HIGH on neuroticism. People who are high on neuroticism are more likely to be moody and to experience such feelings as anxiety, worry, fear, anger, frustration, envy, jealousy, guilt, depressed mood, and loneliness. People who are neurotic respond worse to stressors and are more likely to interpret ordinary situations as threatening and minor frustrations as hopelessly difficult. Need help? To reach the Psychological Emergency Clinician, please call 6175523310.</string>
+
+</resources>

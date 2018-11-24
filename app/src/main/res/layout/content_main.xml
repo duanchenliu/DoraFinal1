@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="180dp"
+        android:layout_height="159dp"
+        android:text="My mental state test"
+        app:layout_constraintBottom_toTopOf="@+id/btnSummary"
+        app:layout_constraintEnd_toStartOf="@+id/btnAudio"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSummary"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:text="Mental State History"
+        app:layout_constraintBottom_toTopOf="@+id/btnAnalysis"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTest" />
+
+    <Button
+        android:id="@+id/btnAudio"
+        android:layout_width="180dp"
+        android:layout_height="159dp"
+        android:text="Zen Room"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnTest"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAnalysis"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:text="Analysis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnEmergency"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSummary" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/btnEmergency"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnSummary"
+        app:layout_constraintTop_toBottomOf="@+id/btnAudio" />
+
+    <Button
+        android:id="@+id/btnEmergency"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:text="Emergency Room"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnAnalysis"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+</android.support.constraint.ConstraintLayout>
